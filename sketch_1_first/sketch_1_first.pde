@@ -1,10 +1,36 @@
 
-String name = "Rehman";
-int age = 19;
-boolean mood = true;
+int white = 255;
+int red = #FF0000;
+int green = #0AFF08;
+int grey = #808080;
 
-println("Hi, my name is " + name);
-println("I am " + age + " years old");
-if(mood == false){
-  println("I "+ mood + " clap my hands");
+void setup(){
+  size(500,500);
+  background(white);
+  frameRate(1);
+}
+int state = 0;
+
+
+void draw(){
+  fill(150);
+  stroke(150);
+
+  if(state == 1){
+    fill(red);
+    stroke(red);
+    state = 0;
+  }else if(state==0){
+    fill(grey);
+    stroke(grey);
+    state = 1;
+  }
+  
+  
+  circle(width/2, 150, 100);
+  fill(150);
+  stroke(150);
+  circle(width/2, height/2, 100);
+
+  circle(width/2, 350, 100);
 }
