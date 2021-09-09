@@ -1,58 +1,22 @@
-void setup() {
-  MethodOne(); 
-  MethodTwo();
-}
 
 /*
-  The following method has an error in it. Fix the error and run it. 
- */
+6.a
+int a = 6;
+int b = 4;
 
-void MethodOne()
-{
-  int i = 1000; // You are not allowed to change this line. 
-
-  int max = 10;
-
-  if (i > max)
-  {
-    String output = i + " is greater than "+max+".";   
-    println(output);
-  }
+if(a == 10 || b == 10 || a+b == 10){
+  println("Success!");
+}else{
+  println("Failure");
 }
+*/
 
-/* 
- Finish the following method so that we can change the number assigned 
- to the weekday and it prints the correct output.  
- */
-void MethodTwo() 
-{
-  int weekDay = 0; // 0 = Monday, 6 = Sunday. 
-  boolean weekend = false;
-
-  if (weekDay < 5)
-  {
-    weekend = false;
-  } else 
-  {
-    weekend = true;
-  }
-
-  // Print the name of the weekday here: 
-  String day ;
-  switch(weekDay){
-    case 0: day = "Monday"; break;
-    case 1: day = "Tuesday"; break;
-    case 2: day = "Wednesday"; break;
-    case 3: day = "Thursday"; break;
-    case 4: day = "Friday"; break;
-    case 5: day = "Saturday"; break;
-    case 6: day = "Sunday"; break;
-    default:day = "Week day out of range";
-  }
-  println(day);
-
-  // Print if it is weekend here:
-  if(weekend == true){
-    print("Finally weekend");
-  }
+// 6.b
+int x = 9;
+int y = 12;
+int z = 9;
+if(x == 10 || y ==10 || z == 10){
+  println("Failure");
+}else if(x+y+z == 30){
+  println("Success!");
 }
