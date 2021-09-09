@@ -6,12 +6,13 @@ int grey = #808080;
 void setup(){
   size(500,500);
   background(white);
-  frameRate(1);
+
 }
 int state = 0;
 
 
 void draw(){
+  frameRate(1);
   fill(150);
   stroke(150);
 
