@@ -1,22 +1,26 @@
+int input = 20;
 
-/*
-6.a
-int a = 6;
-int b = 4;
-
-if(a == 10 || b == 10 || a+b == 10){
-  println("Success!");
+if(input >=0){
+  for(int i = 0; i <= input; i++){
+    if(i == 6){
+      println("Six");
+    }
+    if(i == input / 2){
+      println("HALF!");
+    }
+    println(i);
+  }
 }else{
-  println("Failure");
+  for(int i = 0; i >= input; i--){
+  if(i == 6){
+    println("Six");
+  }
+  if(i == input / 2){
+    println("HALF!");
+  }
+  println(i);
+  if(i>100){
+    break;
+  }
 }
-*/
-
-// 6.b
-int x = 9;
-int y = 12;
-int z = 9;
-if(x == 10 || y ==10 || z == 10){
-  println("Failure");
-}else if(x+y+z == 30){
-  println("Success!");
 }
