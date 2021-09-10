@@ -8,14 +8,15 @@ void setup(){
   background(white);
 
 }
+
 int state = 0;
 
 
 void draw(){
   frameRate(1);
-  fill(150);
   stroke(150);
-
+  fill(150);
+  
   if(state == 1){
     fill(red);
     stroke(red);
