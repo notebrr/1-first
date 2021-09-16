@@ -4,7 +4,7 @@ void setup() {
   size(800, 800);
   fill(0);
   textSize(15);
-  text("Tryk på ENTER for at starte", width/2 - 80, height-100);
+  text("Tryk på ENTER for at starte", width/2 - 100, height-100);
   doSomething();
 }
 
