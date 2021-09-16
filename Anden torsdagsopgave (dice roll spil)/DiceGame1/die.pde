@@ -2,7 +2,8 @@
 class Die {
   color diceColor = color(255);
   color eyeColor = color(0);
-
+  
+  
   int roll() {
     float ranNum = random(1, 7);
     return parseInt(ranNum);
@@ -43,7 +44,7 @@ class Die {
       circle(x-25, y+25, 10);
       circle(x, y, 10);
       circle(x+25, y-25, 10);
-      circle(x+25, y+25, 10);
+      circle(x+25, y+25, 10); // Do(n't) repeat yourself
       break;
     case 6:
       circle(x-25, y-25, 10);
