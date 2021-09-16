@@ -14,7 +14,6 @@ class Die {
     rect(x, y, size, size);
     fill(eyeColor);
 
-
     Die die = new Die();
 
     int getRollNum = die.roll();
