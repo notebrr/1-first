@@ -20,42 +20,42 @@ class Die {
     int getRollNum = die.roll();
 
     switch(getRollNum) {
-    case 1:
-      circle(x, y, 10);
-      break;
-    case 2:
-      circle(x-25, y-25, 10);
-      circle(x+25, y-25, 10);  
-      break;
-    case 3:
-      circle(x-25, y-25, 10);
-      circle(x, y, 10);
-      circle(x+25, y+25, 10);
-      break;
-    case 4:
-      circle(x-25, y-25, 10);
-      circle(x-25, y+25, 10);
-
-      circle(x+25, y-25, 10);
-      circle(x+25, y+25, 10);
-      break;
-    case 5:
-      circle(x-25, y-25, 10);
-      circle(x-25, y+25, 10);
-      circle(x, y, 10);
-      circle(x+25, y-25, 10);
-      circle(x+25, y+25, 10); // Do(n't) repeat yourself
-      break;
-    case 6:
-      circle(x-25, y-25, 10);
-      circle(x-25, y, 10);
-      circle(x-25, y+25, 10); 
-
-      circle(x+25, y-25, 10);
-      circle(x+25, y, 10);
-      circle(x+25, y+25, 10);
-      break;
-    }
+      case 1:
+        circle(x, y, 10);
+        break;
+      case 2:
+        circle(x-25, y-25, 10);
+        circle(x+25, y-25, 10);  
+        break;
+      case 3:
+        circle(x-25, y-25, 10);
+        circle(x, y, 10);
+        circle(x+25, y+25, 10);
+        break;
+      case 4:
+        circle(x-25, y-25, 10);
+        circle(x-25, y+25, 10);
+  
+        circle(x+25, y-25, 10);
+        circle(x+25, y+25, 10);
+        break;
+      case 5:
+        circle(x-25, y-25, 10);
+        circle(x-25, y+25, 10);
+        circle(x, y, 10);
+        circle(x+25, y-25, 10);
+        circle(x+25, y+25, 10); 
+        break;
+      case 6:
+        circle(x-25, y-25, 10);
+        circle(x-25, y, 10);
+        circle(x-25, y+25, 10); 
+  
+        circle(x+25, y-25, 10);
+        circle(x+25, y, 10);
+        circle(x+25, y+25, 10);
+        break;
+      }
 
     /*
     //Middle
