@@ -43,9 +43,8 @@ public class Main
 
         //printLongestWord(); //Task 1
         //printFirstHalfOfEachWord(); //Task 2
-        //printMostFrequentLetter(); //Task 3
-        printLessFrequentLetter(); //Task 4
-
+        printMostFrequentLetter(); //Task 3
+        //printLessFrequentLetter(); //Task 4
     }
 
     private static void printWordsOfLength(int l)
@@ -122,7 +121,7 @@ public class Main
                 }
             }
         }
-        System.out.println("Most repeated word " + myChar + " is found " + maxNum + " times");
+        System.out.println("Most repeated letter " + myChar + " is found " + maxNum + " times");
     }
 
     //Task 4
