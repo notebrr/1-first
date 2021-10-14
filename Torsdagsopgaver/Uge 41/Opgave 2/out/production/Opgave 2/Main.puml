@@ -1,0 +1,24 @@
+@startuml
+
+class Main{
+}
+
+class Controller{
++MSG
+--
++runController
+}
+
+class View{
+
+}
+
+class Dialog{
+
+}
+
+class CalculateVat{
+
+}
+
+@enduml

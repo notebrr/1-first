@@ -1,0 +1,37 @@
+@startuml
+
+Main -- Controller
+
+Controller <-- CalculateVat
+Controller <-- View
+Controller <-- Dialog
+
+class Main{
++runController()
+}
+
+class Controller{
++MSG
+--
++runController()
+}
+
+class View{
+
+--
++doView()
+}
+
+class Dialog{
++number
+--
++doDiag()
+}
+
+class CalculateVat{
++PRCVAT
+--
++doVAT()
+}
+
+@enduml
