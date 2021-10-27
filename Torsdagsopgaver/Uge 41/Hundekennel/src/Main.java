@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        Dog myDog = new Dog("Abdi", false);
+        Dog myDog = new Dog("Abdi", true);
         // sæt en ejer
         myDog.setOwner("Henning");
         // TODO: tilføj to hvalpe når hundeklassen er klar til hvalpe

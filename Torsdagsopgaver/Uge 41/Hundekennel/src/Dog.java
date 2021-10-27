@@ -1,13 +1,14 @@
 import java.util.ArrayList;
 
 public class Dog {
-    private boolean isHungry = true;
-    private ArrayList<String> offSpring = new ArrayList<String>();
+    String name;
+    private boolean isHungry;
+    private ArrayList<String> offSpring = new ArrayList<>();
     private Owner ejer;
 
-
-    public Dog(String abdi, boolean isHungry){
-
+    public Dog(String name, boolean isHungry){
+        this.name = name;
+        this.isHungry = isHungry;
     }
 
     public void setOwner(String myOwner){
